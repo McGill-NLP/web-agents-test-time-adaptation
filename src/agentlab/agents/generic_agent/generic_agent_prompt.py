@@ -73,7 +73,7 @@ def save_cost_report(filepath: str = f"cost_report_{MODEL_NAME}.txt"):
 atexit.register(save_cost_report)
 
 #config
-IMG_DIR = "/home/mila/s/shind/scratch/AgentLab_TTA/User_History_Images_qwen3_fixed222"
+IMG_DIR = "User_History"
 CACHE_ROOT = "./cache"
 EMBED_CACHE_DIR = os.path.join(CACHE_ROOT, "embeddings")
 FAISS_CACHE_DIR = os.path.join(CACHE_ROOT, "faiss")
